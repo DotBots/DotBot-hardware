@@ -706,10 +706,6 @@ Wire Wire Line
 Connection ~ 2450 8050
 Wire Wire Line
 	2450 8050 2450 8000
-Text GLabel 1750 7200 0    50   Input ~ 0
-P0_10
-Wire Wire Line
-	1750 7200 1850 7200
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 6051F2BE
@@ -740,10 +736,6 @@ Wire Wire Line
 	1550 7600 1850 7600
 Wire Wire Line
 	1550 7700 1850 7700
-Text GLabel 6900 3700 2    50   Input ~ 0
-P0_10
-Wire Wire Line
-	6750 3700 6900 3700
 Text GLabel 4900 4600 0    50   Input ~ 0
 P0_04
 Text GLabel 4900 4700 0    50   Input ~ 0
@@ -1768,4 +1760,8 @@ Wire Wire Line
 	4550 9450 4550 9550
 Wire Wire Line
 	5000 9450 5000 9550
+NoConn ~ 1850 7200
+NoConn ~ 6850 3700
+Wire Wire Line
+	6850 3700 6750 3700
 $EndSCHEMATC
