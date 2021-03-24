@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DotBot_v1_4)(type Legacy)(uri ${KIPRJMOD}/lib/DotBot_v1_4.lib)(options "")(descr ""))
+  (lib (name TS4231-BOB)(type Legacy)(uri ${KIPRJMOD}/lib/TS4231-BOB.lib)(options "")(descr ""))
+)
