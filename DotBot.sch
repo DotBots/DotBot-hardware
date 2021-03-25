@@ -1493,9 +1493,9 @@ F 3 "" H 3050 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 6400 3050 6450
-Text GLabel 3150 7700 2    50   Input ~ 0
-P0_11
 Text GLabel 3150 7600 2    50   Input ~ 0
+P0_11
+Text GLabel 3150 7700 2    50   Input ~ 0
 P1_09
 $Comp
 L Connector_Generic:Conn_02x07_Counter_Clockwise J5
