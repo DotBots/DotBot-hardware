@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 46)
+    (drawings 47)
     (tracks 671)
     (zones 0)
     (modules 50)
@@ -1958,7 +1958,7 @@
     (tags SOT-23)
     (path /608070DC)
     (attr smd)
-    (fp_text reference U2 (at 2.8 -0.2) (layer F.SilkS)
+    (fp_text reference U2 (at -2.75 0.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DRV5015A1 (at 0 2.5) (layer F.Fab)
@@ -2260,6 +2260,9 @@
       (net 7 "Net-(C10-Pad2)"))
   )
 
+  (gr_text "DotBot\nv1.4" (at 111.52 79.14) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 115 81) (end 114 82) (layer Edge.Cuts) (width 0.05) (tstamp 605B4EDF))
   (gr_line (start 90.6 46.5) (end 75 46.5) (layer Eco1.User) (width 0.15))
   (gr_line (start 110.6 46.5) (end 115 46.5) (layer Eco1.User) (width 0.15))
