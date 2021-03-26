@@ -543,10 +543,8 @@ F 3 "~" H 3750 7400 50  0001 C CNN
 	1    3750 7400
 	-1   0    0    1   
 $EndComp
-Text GLabel 3150 7400 2    50   Input ~ 0
-P0_28
 Text GLabel 3150 7500 2    50   Input ~ 0
-P0_31
+P0_28
 Wire Wire Line
 	3050 7400 3150 7400
 Wire Wire Line
@@ -1357,9 +1355,6 @@ Wire Wire Line
 	6750 4300 6900 4300
 Wire Wire Line
 	6750 4400 6900 4400
-NoConn ~ 6850 3800
-Wire Wire Line
-	6750 3800 6850 3800
 Wire Notes Line
 	8850 5250 11350 5250
 Wire Notes Line
@@ -1497,44 +1492,33 @@ Text GLabel 3150 7600 2    50   Input ~ 0
 P0_11
 Text GLabel 3150 7700 2    50   Input ~ 0
 P1_09
-$Comp
-L Connector_Generic:Conn_02x07_Counter_Clockwise J5
-U 1 1 6061D714
-P 7400 9650
-F 0 "J5" H 7450 10167 50  0000 C CNN
-F 1 "Test Points" H 7450 10076 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Vertical" H 7400 9650 50  0001 C CNN
-F 3 "~" H 7400 9650 50  0001 C CNN
-	1    7400 9650
-	1    0    0    -1  
-$EndComp
 Text GLabel 7150 9450 0    50   Input ~ 0
 P0_29
 Text GLabel 7150 9350 0    50   Input ~ 0
 P0_30
-Text GLabel 7150 9950 0    50   Input ~ 0
+Text GLabel 7150 9850 0    50   Input ~ 0
 P0_04
 Text GLabel 7150 9650 0    50   Input ~ 0
 P0_05
-Text GLabel 7750 9950 2    50   Input ~ 0
-P0_28
-Text GLabel 7750 9850 2    50   Input ~ 0
-P0_31
-Text GLabel 7750 9550 2    50   Input ~ 0
-P1_09
 Text GLabel 7750 9450 2    50   Input ~ 0
+P0_28
+Text GLabel 9050 9600 0    50   Input ~ 0
+P0_31
+Text GLabel 7750 9350 2    50   Input ~ 0
+P1_09
+Text GLabel 7750 9650 2    50   Input ~ 0
 P0_11
-Text GLabel 7150 9850 0    50   Input ~ 0
+Text GLabel 7750 9550 2    50   Input ~ 0
 P0_02
 Text GLabel 7150 9750 0    50   Input ~ 0
 P0_03
-Text GLabel 7750 9350 2    50   Input ~ 0
+Text GLabel 9750 9600 2    50   Input ~ 0
 P0_10
 Text GLabel 7150 9550 0    50   Input ~ 0
 P0_20
-Text GLabel 7750 9750 2    50   Input ~ 0
+Text GLabel 7750 9850 2    50   Input ~ 0
 P0_17
-Text GLabel 7750 9650 2    50   Input ~ 0
+Text GLabel 7750 9750 2    50   Input ~ 0
 P0_15
 Wire Wire Line
 	7200 9350 7150 9350
@@ -1548,10 +1532,6 @@ Wire Wire Line
 	7200 9750 7150 9750
 Wire Wire Line
 	7200 9850 7150 9850
-Wire Wire Line
-	7200 9950 7150 9950
-Wire Wire Line
-	7700 9950 7750 9950
 Wire Wire Line
 	7700 9850 7750 9850
 Wire Wire Line
@@ -1607,17 +1587,6 @@ $EndComp
 Wire Wire Line
 	8500 2350 8500 2400
 $Comp
-L Connector:TestPoint TP4
-U 1 1 605F5D80
-P 4550 9450
-F 0 "TP4" H 4608 9568 50  0000 L CNN
-F 1 "GND_TP" H 4608 9477 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4750 9450 50  0001 C CNN
-F 3 "~" H 4750 9450 50  0001 C CNN
-	1    4550 9450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP3
 U 1 1 605F691F
 P 4100 9450
@@ -1648,17 +1617,6 @@ F 1 "GND_TP" H 3258 9477 50  0000 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3400 9450 50  0001 C CNN
 F 3 "~" H 3400 9450 50  0001 C CNN
 	1    3200 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 605F7874
-P 5000 9450
-F 0 "TP5" H 5058 9568 50  0000 L CNN
-F 1 "GND_TP" H 5058 9477 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 5200 9450 50  0001 C CNN
-F 3 "~" H 5200 9450 50  0001 C CNN
-	1    5000 9450
 	1    0    0    -1  
 $EndComp
 Text Notes 3650 9200 0    79   ~ 0
@@ -1696,42 +1654,13 @@ F 3 "" H 4100 9550 50  0001 C CNN
 	1    4100 9550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR040
-U 1 1 605F9C8B
-P 4550 9550
-F 0 "#PWR040" H 4550 9300 50  0001 C CNN
-F 1 "GND" H 4555 9377 50  0000 C CNN
-F 2 "" H 4550 9550 50  0001 C CNN
-F 3 "" H 4550 9550 50  0001 C CNN
-	1    4550 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR041
-U 1 1 605FA0F2
-P 5000 9550
-F 0 "#PWR041" H 5000 9300 50  0001 C CNN
-F 1 "GND" H 5005 9377 50  0000 C CNN
-F 2 "" H 5000 9550 50  0001 C CNN
-F 3 "" H 5000 9550 50  0001 C CNN
-	1    5000 9550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 9450 3200 9550
 Wire Wire Line
 	3650 9450 3650 9550
 Wire Wire Line
 	4100 9450 4100 9550
-Wire Wire Line
-	4550 9450 4550 9550
-Wire Wire Line
-	5000 9450 5000 9550
 NoConn ~ 1850 7200
-NoConn ~ 6850 3700
-Wire Wire Line
-	6850 3700 6750 3700
 $Comp
 L Device:C C14
 U 1 1 605D63F0
@@ -1768,5 +1697,80 @@ $EndComp
 Wire Wire Line
 	9650 6550 9650 6650
 Connection ~ 9650 6550
-NoConn ~ 4900 4100
+$Comp
+L Connector_Generic:Conn_02x06_Counter_Clockwise J5
+U 1 1 60764F4F
+P 7400 9550
+F 0 "J5" H 7450 9967 50  0000 C CNN
+F 1 "Test Point" H 7450 9876 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x12_P1.27mm_Vertical" H 7400 9550 50  0001 C CNN
+F 3 "~" H 7400 9550 50  0001 C CNN
+	1    7400 9550
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 9700 0    50   Input ~ 0
+P0_09
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J6
+U 1 1 60784D62
+P 9350 9700
+F 0 "J6" H 9400 10017 50  0000 C CNN
+F 1 "Pin" H 9400 9926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9350 9700 50  0001 C CNN
+F 3 "~" H 9350 9700 50  0001 C CNN
+	1    9350 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 60794A02
+P 9750 9850
+F 0 "#PWR043" H 9750 9600 50  0001 C CNN
+F 1 "GND" H 9755 9677 50  0000 C CNN
+F 2 "" H 9750 9850 50  0001 C CNN
+F 3 "" H 9750 9850 50  0001 C CNN
+	1    9750 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 60795224
+P 9050 9850
+F 0 "#PWR042" H 9050 9600 50  0001 C CNN
+F 1 "GND" H 9055 9677 50  0000 C CNN
+F 2 "" H 9050 9850 50  0001 C CNN
+F 3 "" H 9050 9850 50  0001 C CNN
+	1    9050 9850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 9700 2    50   Input ~ 0
+VDD
+Wire Wire Line
+	9050 9600 9150 9600
+Wire Wire Line
+	9050 9700 9150 9700
+Wire Wire Line
+	9050 9850 9050 9800
+Wire Wire Line
+	9050 9800 9150 9800
+Wire Wire Line
+	9650 9800 9750 9800
+Wire Wire Line
+	9750 9800 9750 9850
+Wire Wire Line
+	9650 9700 9750 9700
+Wire Wire Line
+	9650 9600 9750 9600
+Text GLabel 4900 4100 0    50   Input ~ 0
+P0_02
+Text GLabel 6900 3700 2    50   Input ~ 0
+P0_10
+Text GLabel 6900 3800 2    50   Input ~ 0
+P0_09
+Wire Wire Line
+	6750 3800 6900 3800
+Wire Wire Line
+	6750 3700 6900 3700
+Text GLabel 3150 7400 2    50   Input ~ 0
+P0_02
 $EndSCHEMATC
