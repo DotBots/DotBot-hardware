@@ -1587,17 +1587,6 @@ $EndComp
 Wire Wire Line
 	8500 2350 8500 2400
 $Comp
-L Connector:TestPoint TP4
-U 1 1 605F5D80
-P 4550 9450
-F 0 "TP4" H 4608 9568 50  0000 L CNN
-F 1 "GND_TP" H 4608 9477 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4750 9450 50  0001 C CNN
-F 3 "~" H 4750 9450 50  0001 C CNN
-	1    4550 9450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP3
 U 1 1 605F691F
 P 4100 9450
@@ -1665,25 +1654,12 @@ F 3 "" H 4100 9550 50  0001 C CNN
 	1    4100 9550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR040
-U 1 1 605F9C8B
-P 4550 9550
-F 0 "#PWR040" H 4550 9300 50  0001 C CNN
-F 1 "GND" H 4555 9377 50  0000 C CNN
-F 2 "" H 4550 9550 50  0001 C CNN
-F 3 "" H 4550 9550 50  0001 C CNN
-	1    4550 9550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 9450 3200 9550
 Wire Wire Line
 	3650 9450 3650 9550
 Wire Wire Line
 	4100 9450 4100 9550
-Wire Wire Line
-	4550 9450 4550 9550
 NoConn ~ 1850 7200
 $Comp
 L Device:C C14
