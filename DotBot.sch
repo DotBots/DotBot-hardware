@@ -958,17 +958,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 7600 2250 7600
 $Comp
-L Connector:TestPoint TP3
-U 1 1 605F691F
-P 3000 2000
-F 0 "TP3" V 3100 2100 50  0000 L CNN
-F 1 "GND_TP" V 3150 2150 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3200 2000 50  0001 C CNN
-F 3 "~" H 3200 2000 50  0001 C CNN
-	1    3000 2000
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:TestPoint TP1
 U 1 1 605F7411
 P 5450 9000
