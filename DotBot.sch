@@ -14,18 +14,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DotBot_v1_4:BC833M U5
+L DotBot:BC833M U5
 U 1 1 60475331
 P 5900 4250
 F 0 "U5" H 6600 4950 50  0000 C CNN
 F 1 "BC833M" H 5250 3450 50  0000 C CNN
 F 2 "BC833M-V4-lib:BC833M-V4" H 5050 5050 50  0001 C CNN
-F 3 "" H 5050 5050 50  0001 C CNN
+F 3 "https://static1.squarespace.com/static/561459a2e4b0b39f5cefa12e/t/60270895e454bd0fb5d24793/1613170839894/BC833M_Product_Specifications.pdf" H 5050 5050 50  0001 C CNN
 	1    5900 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L TS4231-BOB:TS4231 U4
+L DotBot:TS4231 U4
 U 1 1 60477CE0
 P 2600 1200
 F 0 "U4" H 2700 1150 50  0000 C CNN
@@ -667,24 +667,24 @@ Wire Wire Line
 Wire Wire Line
 	4900 4100 5000 4100
 $Comp
-L DotBot_v1_4:DRV5015A1 U1
+L DotBot:DRV5015A1 U1
 U 1 1 608067A6
 P 2100 3850
 F 0 "U1" H 2150 4215 50  0000 C CNN
 F 1 "DRV5015A1" H 2150 4124 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2350 3500 50  0001 C CNN
-F 3 "" H 2350 3500 50  0001 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv5015-q1" H 2350 3500 50  0001 C CNN
 	1    2100 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L DotBot_v1_4:DRV5015A1 U2
+L DotBot:DRV5015A1 U2
 U 1 1 608070DC
 P 2100 4850
 F 0 "U2" H 2150 5215 50  0000 C CNN
 F 1 "DRV5015A1" H 2150 5124 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2350 4500 50  0001 C CNN
-F 3 "" H 2350 4500 50  0001 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv5015-q1" H 2350 4500 50  0001 C CNN
 	1    2100 4850
 	1    0    0    -1  
 $EndComp
@@ -863,7 +863,7 @@ Wire Notes Line
 Text Notes 4300 3250 0    101  ~ 0
 nRF Module
 Text Notes 8600 3150 0    101  ~ 0
-3.3v LDO
+3.3v Buck/Boost
 Text Notes 7500 750  0    101  ~ 0
 6v Step-Up
 Text Notes 4400 750  0    101  ~ 0
@@ -1140,7 +1140,7 @@ Wire Notes Line
 Wire Wire Line
 	9150 6850 9900 6850
 $Comp
-L DotBot_v1_5:TLC5973D U7
+L DotBot:TLC5973D U7
 U 1 1 60D30985
 P 5500 1850
 F 0 "U7" H 5600 2300 50  0000 C CNN
@@ -1507,7 +1507,7 @@ Connection ~ 6500 1700
 Wire Wire Line
 	6500 2400 6500 2450
 $Comp
-L DotBot_v1_6:LTC3531ES6-3.3 U6
+L DotBot:LTC3531ES6-3.3 U6
 U 1 1 6154EBD6
 P 9500 3850
 F 0 "U6" H 9750 4150 79  0000 L CNN
@@ -1600,13 +1600,13 @@ $EndComp
 Wire Wire Line
 	11300 2100 11300 2250
 $Comp
-L DotBot_v1_5:MIC2250-1YD5 U8
+L DotBot:MIC2250-1YD5 U8
 U 1 1 60E335EA
 P 8650 1650
 F 0 "U8" H 8450 1950 50  0000 C CNN
 F 1 "MIC2250-1YD5" H 9000 1250 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8650 1650 79  0001 C CNN
-F 3 "" H 8650 1650 79  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580073" H 8650 1650 79  0001 C CNN
 	1    8650 1650
 	1    0    0    -1  
 $EndComp
