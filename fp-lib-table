@@ -1,6 +1,3 @@
 (fp_lib_table
-  (lib (name BC833M-V4-lib)(type Eagle)(uri ${KIPRJMOD}/lib/BC833M-V4-lib.lbr)(options "")(descr ""))
-  (lib (name TS4231)(type KiCad)(uri ${KIPRJMOD}/lib/TS4231.pretty)(options "")(descr ""))
-  (lib (name DotBot_v1_4)(type KiCad)(uri ${KIPRJMOD}/lib/DotBot_v1_4.pretty)(options "")(descr ""))
   (lib (name DotBot)(type KiCad)(uri ${KIPRJMOD}/lib/DotBot.pretty)(options "")(descr ""))
 )
