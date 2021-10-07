@@ -1,4 +1,4 @@
-# DotBot - PCB v1.4
+# DotBot - PCB v1.6
 
 <p align="center">
   <img src="static/main_diagram.png" width="70%" height="70%"alt="DotBot Diagram"/>
