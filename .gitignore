@@ -3,6 +3,8 @@
 
 # New format files
 DotBot-backups/
+# Ignore files starting with #
+\#*
 
 # Temporary files
 *.000
