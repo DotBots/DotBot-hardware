@@ -5,7 +5,7 @@
   (paper "User" 319.989 259.994)
 
   (title_block
-    (title "DotBot v1.6 - Main PCB")
+    (title "DotBot v1.7 - Main PCB")
     (date "2021-10-01")
     (rev "1.0")
     (company "INRIA - AIO")
@@ -6287,8 +6287,8 @@
     (pin "15" (uuid 87a79767-538e-4d08-8134-e360e8713c22))
     (pin "16" (uuid b425b92a-180f-40c3-80f1-78d9319641fc))
     (pin "17" (uuid 1c391ca7-e610-404c-bdff-cd84da814875))
-    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0dfe))
-    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0dfe))
+    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0dff))
+    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0dff))
     (pin "3" (uuid 3804fc39-2d72-4f7a-9dd6-f57f608400a5))
     (pin "4" (uuid 02a96c24-0d82-47eb-873e-8d40348f697a))
     (pin "5" (uuid df917ce8-76f2-4592-b9d9-a6899cc26e5e))
