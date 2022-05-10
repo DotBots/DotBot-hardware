@@ -1,6 +1,14 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+# New format files
+*-backups/
+# MS200_SmartMesh_module-backups/
+*.kicad_prl
+# Ignore files starting with #
+\#
+
+
 # Temporary files
 *.000
 *.bak
