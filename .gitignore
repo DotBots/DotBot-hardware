@@ -2,9 +2,12 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # New format files
-DotBot-backups/
+*-backups/
+# MS200_SmartMesh_module-backups/
+*.kicad_prl
 # Ignore files starting with #
-\#*
+\#
+
 
 # Temporary files
 *.000
