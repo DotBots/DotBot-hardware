@@ -4818,7 +4818,7 @@
     (uuid 00000000-0000-0000-0000-000060520c76)
     (property "Reference" "J2" (id 0) (at 107.95 222.25 0))
     (property "Value" "Rigth Motor" (id 1) (at 100.33 218.44 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 107.95 219.71 0)
+    (property "Footprint" "DotBot:B2B-ZR_LF_SN" (id 2) (at 107.95 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eZH.pdf" (id 3) (at 107.95 219.71 0)
@@ -6287,8 +6287,8 @@
     (pin "15" (uuid 87a79767-538e-4d08-8134-e360e8713c22))
     (pin "16" (uuid b425b92a-180f-40c3-80f1-78d9319641fc))
     (pin "17" (uuid 1c391ca7-e610-404c-bdff-cd84da814875))
-    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0e01))
-    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0e01))
+    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0e02))
+    (pin "2" (uuid 29d37ced-1693-4fce-a991-b508060f0e02))
     (pin "3" (uuid 3804fc39-2d72-4f7a-9dd6-f57f608400a5))
     (pin "4" (uuid 02a96c24-0d82-47eb-873e-8d40348f697a))
     (pin "5" (uuid df917ce8-76f2-4592-b9d9-a6899cc26e5e))
@@ -6787,7 +6787,7 @@
       (reference "J1") (unit 1) (value "Left Motor") (footprint "DotBot:B2B-ZR_LF_SN")
     )
     (path "/00000000-0000-0000-0000-000060520c76"
-      (reference "J2") (unit 1) (value "Rigth Motor") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Rigth Motor") (footprint "DotBot:B2B-ZR_LF_SN")
     )
     (path "/00000000-0000-0000-0000-0000604a0dd8"
       (reference "J3") (unit 1) (value "Pin Header 2x5, 1.27mm") (footprint "DotBot:Samtec_Connector_FTSH-105-01-F-DV-K")
