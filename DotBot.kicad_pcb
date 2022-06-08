@@ -3370,7 +3370,7 @@
   (gr_text "B1" (at 100.2 75.55) (layer "B.SilkS") (tstamp 4a8c099c-07ef-47db-b188-6f8b7978d1d4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "DotBot\nv1.8.1" (at 79.834315 45.35) (layer "B.SilkS") (tstamp 736f4bca-0539-488f-ab5b-c659fa9836b0)
+  (gr_text "DotBot\nv1.8.2" (at 79.834315 45.35) (layer "B.SilkS") (tstamp 736f4bca-0539-488f-ab5b-c659fa9836b0)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "A1" (at 90.6 75.5) (layer "B.SilkS") (tstamp 92ba8945-0271-4dc3-a102-541bc7646045)
