@@ -6,7 +6,8 @@
 # MS200_SmartMesh_module-backups/
 *.kicad_prl
 # Ignore files starting with #
-\#
+\#*
+
 
 
 # Temporary files
