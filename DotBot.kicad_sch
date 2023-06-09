@@ -4091,7 +4091,7 @@
     (property "Reference" "#PWR05" (at 49.53 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 49.53 27.94 0)
+    (property "Value" "+3.3V" (at 49.53 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 49.53 33.02 0)
@@ -4280,7 +4280,7 @@
   (symbol (lib_id "power:+3.3V") (at 38.1 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 185de9b8-b9a3-4638-b37f-85a67368af48)
-    (property "Reference" "#PWR03" (at 38.1 224.79 0)
+    (property "Reference" "#PWR01" (at 38.1 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 38.1 215.9 0)
@@ -4296,7 +4296,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "DotBot"
@@ -4423,7 +4423,7 @@
     (property "Reference" "#PWR014" (at 82.55 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 82.55 26.67 0)
+    (property "Value" "+3.3V" (at 82.55 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 82.55 31.75 0)
@@ -4654,8 +4654,8 @@
     (pin "15" (uuid 8b45694f-f6ef-477b-8a42-b262d051bf95))
     (pin "16" (uuid e33b46b3-86f3-4f15-bd79-ee8f61b9c297))
     (pin "17" (uuid a9a094fa-eca5-40e6-998c-c1a00ca888c1))
-    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b805))
-    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b805))
+    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b806))
+    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b806))
     (pin "3" (uuid 818ab051-1d3f-4380-9ef3-fc50e733bdb7))
     (pin "4" (uuid b1805204-f8dc-47b1-b5af-73b6dc9e075b))
     (pin "5" (uuid 561a6269-c8d7-4c82-81ea-d94244025d9b))
@@ -5179,7 +5179,7 @@
   (symbol (lib_id "power:+3.3V") (at 38.1 246.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f8b4a74-d4e9-44f3-9ac3-1d16083219d6)
-    (property "Reference" "#PWR018" (at 38.1 250.19 0)
+    (property "Reference" "#PWR03" (at 38.1 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 38.1 241.3 0)
@@ -5195,7 +5195,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "DotBot"
@@ -5603,7 +5603,7 @@
     (property "Reference" "#PWR023" (at 105.41 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 105.41 24.13 0)
+    (property "Value" "+3.3V" (at 105.41 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 105.41 29.21 0)
@@ -6046,7 +6046,7 @@
   (symbol (lib_id "power:+3.3V") (at 93.98 219.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 736a11ea-b9de-4d6f-aa7f-39f5d99dc3a7)
-    (property "Reference" "#PWR01" (at 93.98 223.52 0)
+    (property "Reference" "#PWR018" (at 93.98 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 93.98 214.63 0)
@@ -6062,7 +6062,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "DotBot"
@@ -6287,10 +6287,10 @@
   (symbol (lib_id "power:+3.3V") (at 127 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a08c411-b6fd-4eb5-903b-e83ff1576d60)
-    (property "Reference" "#PWR025" (at 127 54.61 0)
+    (property "Reference" "#PWR028" (at 127 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 127 45.72 0)
+    (property "Value" "+3.3V" (at 127 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 127 50.8 0)
@@ -6303,7 +6303,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "DotBot"
@@ -7383,10 +7383,10 @@
   (symbol (lib_id "power:+3.3V") (at 105.41 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbbf234e-e2d2-4cd7-87fc-e63be95baaaa)
-    (property "Reference" "#PWR028" (at 105.41 54.61 0)
+    (property "Reference" "#PWR025" (at 105.41 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 105.41 45.72 0)
+    (property "Value" "+3.3V" (at 105.41 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 105.41 50.8 0)
@@ -7399,7 +7399,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "DotBot"
