@@ -4063,7 +4063,16 @@
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 353.06 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 353.06 43.18 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/SML-31_Series.pdf" (at 353.06 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/en/products/detail/rohm-semiconductor/SML-311DTT86/637031" (at 353.06 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "SML-311DTT86" (at 353.06 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$0,09" (at 353.06 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5273704d-b7e7-4e02-91a4-e3cf6057a62b))
@@ -4080,7 +4089,7 @@
   (symbol (lib_id "Device:C") (at 93.98 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b3b6d18-4e78-4404-8ed9-d8c82da8fe03)
-    (property "Reference" "C8" (at 87.63 226.06 0)
+    (property "Reference" "C7" (at 87.63 226.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 87.63 223.52 0)
@@ -4106,7 +4115,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "DotBot"
@@ -4241,6 +4250,15 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8833.pdf" (at 95.25 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/fr/products/detail/texas-instruments/DRV8833PWP/2741746" (at 91.44 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "DRV8833PWP" (at 91.44 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$1,48" (at 91.44 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4155b54f-c71a-43b2-86fe-f10054c06596))
@@ -4452,7 +4470,7 @@
   (symbol (lib_id "power:+3.3V") (at 81.28 26.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2287c488-1dbc-4955-95ac-3b479e1a7fb0)
-    (property "Reference" "#PWR014" (at 81.28 30.48 0)
+    (property "Reference" "#PWR011" (at 81.28 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 81.28 22.86 0)
@@ -4468,7 +4486,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "DotBot"
@@ -4493,6 +4511,15 @@
     )
     (property "Datasheet" "https://www.fanstel.com/s/BT40F-Product-Specifications-y7c7.pdf" (at 220.98 107.95 0)
       (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/fr/products/detail/fanstel-corp/BT40/13174283" (at 226.06 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "BT40" (at 226.06 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$9,97" (at 226.06 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8940c47e-2538-4f89-af19-818767ec20c0))
     (pin "10" (uuid 4111f786-e1f0-4c26-8528-5d37462b492e))
@@ -4572,7 +4599,7 @@
   (symbol (lib_id "OLIMEX_Power:GND") (at 80.01 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 231839f2-1092-4fea-af00-d9323aa690d4)
-    (property "Reference" "#PWR013" (at 80.01 58.42 0)
+    (property "Reference" "#PWR010" (at 80.01 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 57.15 0)
@@ -4588,7 +4615,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4686,8 +4713,8 @@
     (pin "15" (uuid 8b45694f-f6ef-477b-8a42-b262d051bf95))
     (pin "16" (uuid e33b46b3-86f3-4f15-bd79-ee8f61b9c297))
     (pin "17" (uuid a9a094fa-eca5-40e6-998c-c1a00ca888c1))
-    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b810))
-    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b810))
+    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b812))
+    (pin "2" (uuid fa5bd9d4-4adb-4183-8814-b33b32e9b812))
     (pin "3" (uuid 818ab051-1d3f-4380-9ef3-fc50e733bdb7))
     (pin "4" (uuid b1805204-f8dc-47b1-b5af-73b6dc9e075b))
     (pin "5" (uuid 561a6269-c8d7-4c82-81ea-d94244025d9b))
@@ -4712,7 +4739,7 @@
   (symbol (lib_id "Device:C") (at 93.98 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2783dd27-1c78-4e43-9d87-a4edb0dd1259)
-    (property "Reference" "C9" (at 87.63 251.46 0)
+    (property "Reference" "C8" (at 87.63 251.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 87.63 248.92 0)
@@ -4738,7 +4765,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "DotBot"
@@ -4842,7 +4869,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 49.53 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cf6cbcc-8f80-4118-95d5-79ff3dbfddce)
-    (property "Reference" "J11" (at 45.72 187.96 0)
+    (property "Reference" "J5" (at 45.72 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01" (at 49.53 184.15 0)
@@ -4858,7 +4885,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J11") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -4981,7 +5008,7 @@
   (symbol (lib_id "OLIMEX_Power:GND") (at 88.9 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34745526-041e-4181-9d66-350a28830b43)
-    (property "Reference" "#PWR016" (at 88.9 38.1 0)
+    (property "Reference" "#PWR013" (at 88.9 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 36.83 0)
@@ -4997,7 +5024,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5536,7 +5563,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 49.53 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e6f783d-c5eb-4dd6-bd4a-c9790bba9210)
-    (property "Reference" "J10" (at 45.72 176.53 0)
+    (property "Reference" "J2" (at 45.72 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01" (at 49.53 172.72 0)
@@ -5552,7 +5579,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J10") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -5635,7 +5662,16 @@
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 353.06 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 353.06 54.61 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/SML-31_Series.pdf" (at 353.06 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/en/products/detail/rohm-semiconductor/SML-311DTT86/637031" (at 353.06 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "SML-311DTT86" (at 353.06 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$0,09" (at 353.06 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c4ef816b-0022-47ad-b28a-a548229b7363))
@@ -5652,7 +5688,7 @@
   (symbol (lib_id "power:+6V") (at 83.82 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52b1f805-4893-4cde-87c5-5f80012e6e87)
-    (property "Reference" "#PWR08" (at 83.82 154.94 0)
+    (property "Reference" "#PWR012" (at 83.82 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+6V" (at 84.201 146.7358 0)
@@ -5668,7 +5704,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "DotBot"
@@ -5682,7 +5718,7 @@
   (symbol (lib_id "power:+3.3V") (at 115.57 26.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 563e0f58-9681-49fc-94b6-764aacc8d6b1)
-    (property "Reference" "#PWR023" (at 115.57 30.48 0)
+    (property "Reference" "#PWR024" (at 115.57 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 115.57 22.86 0)
@@ -5698,7 +5734,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "DotBot"
@@ -5777,7 +5813,7 @@
   (symbol (lib_id "OLIMEX_Power:GND") (at 50.8 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5af7c786-7f66-44ba-9280-06f4e28e2da5)
-    (property "Reference" "#PWR07" (at 50.8 58.42 0)
+    (property "Reference" "#PWR06" (at 50.8 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 57.15 0)
@@ -5793,7 +5829,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5802,7 +5838,7 @@
   (symbol (lib_id "power:+6V") (at 106.68 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b9fc2c9-ee7f-4253-ac63-69559fbd0871)
-    (property "Reference" "#PWR015" (at 106.68 156.21 0)
+    (property "Reference" "#PWR020" (at 106.68 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+6V" (at 107.061 148.0058 0)
@@ -5818,7 +5854,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "DotBot"
@@ -5862,7 +5898,7 @@
   (symbol (lib_id "power:GND") (at 99.06 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 617866b1-570a-46c0-9423-967478e1e101)
-    (property "Reference" "#PWR012" (at 99.06 163.83 0)
+    (property "Reference" "#PWR019" (at 99.06 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 157.48 0)
@@ -5878,7 +5914,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "DotBot"
@@ -6002,7 +6038,7 @@
   (symbol (lib_id "OLIMEX_Power:GND") (at 109.22 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 680eb311-846b-4fb3-a5c4-b89cffb8e6c9)
-    (property "Reference" "#PWR026" (at 109.22 63.5 0)
+    (property "Reference" "#PWR022" (at 109.22 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 62.23 0)
@@ -6018,7 +6054,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -6128,7 +6164,7 @@
   (symbol (lib_id "power:+3.3V") (at 93.98 219.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 736a11ea-b9de-4d6f-aa7f-39f5d99dc3a7)
-    (property "Reference" "#PWR018" (at 93.98 223.52 0)
+    (property "Reference" "#PWR015" (at 93.98 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 93.98 214.63 0)
@@ -6144,7 +6180,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "DotBot"
@@ -6279,7 +6315,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 49.53 180.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a7db9e8-781c-4cc3-a079-63c500e28f2d)
-    (property "Reference" "J9" (at 45.72 180.34 0)
+    (property "Reference" "J3" (at 45.72 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01" (at 49.53 176.53 0)
@@ -6295,7 +6331,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J9") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -6364,7 +6400,7 @@
   (symbol (lib_id "power:GND") (at 93.98 229.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8950f161-d7d7-4491-9f80-fd1f403c1c07)
-    (property "Reference" "#PWR019" (at 93.98 236.22 0)
+    (property "Reference" "#PWR016" (at 93.98 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 94.107 234.2642 0)
@@ -6380,7 +6416,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "DotBot"
@@ -6633,7 +6669,7 @@
   (symbol (lib_id "OLIMEX_Power:GND") (at 91.44 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 969678f4-0548-4db0-9e4d-c7d24abd6eab)
-    (property "Reference" "#PWR011" (at 91.44 200.66 0)
+    (property "Reference" "#PWR014" (at 91.44 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 199.39 0)
@@ -6649,7 +6685,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -6728,7 +6764,7 @@
   (symbol (lib_id "power:+6V") (at 113.03 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a29bb8f4-7a26-4972-96d1-3566218835cb)
-    (property "Reference" "#PWR017" (at 113.03 161.29 0)
+    (property "Reference" "#PWR023" (at 113.03 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+6V" (at 113.411 153.0858 0)
@@ -6744,7 +6780,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "DotBot"
@@ -6788,7 +6824,7 @@
   (symbol (lib_id "OLIMEX_Power:GND") (at 63.5 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7199265-bd7d-44ed-899a-b61310eb2fde)
-    (property "Reference" "#PWR09" (at 63.5 125.73 0)
+    (property "Reference" "#PWR07" (at 63.5 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 124.46 0)
@@ -6804,7 +6840,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -6813,7 +6849,7 @@
   (symbol (lib_id "power:+3.3V") (at 66.04 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab052914-399c-49c2-be84-d3e82110f3d1)
-    (property "Reference" "#PWR010" (at 66.04 91.44 0)
+    (property "Reference" "#PWR08" (at 66.04 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 66.04 82.55 0)
@@ -6829,7 +6865,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "DotBot"
@@ -6843,7 +6879,7 @@
   (symbol (lib_id "power:GND") (at 123.19 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad70ed4c-6a31-45fd-80bd-28ee3532ee4d)
-    (property "Reference" "#PWR022" (at 123.19 191.77 0)
+    (property "Reference" "#PWR026" (at 123.19 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.317 189.8142 0)
@@ -6859,7 +6895,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "DotBot"
@@ -6994,7 +7030,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 49.53 184.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6c05027-aed1-40a6-8baf-a8743d7ae5a6)
-    (property "Reference" "J12" (at 45.72 184.15 0)
+    (property "Reference" "J4" (at 45.72 184.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01" (at 49.53 180.34 0)
@@ -7010,7 +7046,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J12") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -7019,7 +7055,7 @@
   (symbol (lib_id "Device:C") (at 113.03 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7064547-e9db-4ebf-9b66-b5f3fcdf653b)
-    (property "Reference" "C7" (at 118.11 165.1 0)
+    (property "Reference" "C9" (at 118.11 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 118.11 162.56 0)
@@ -7045,7 +7081,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "DotBot"
@@ -7059,7 +7095,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 106.68 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b96f2e56-f6dd-409f-9cf3-03d4a8a60979)
-    (property "Reference" "J6" (at 106.68 24.13 0)
+    (property "Reference" "J9" (at 106.68 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Rear pins" (at 102.87 33.02 90)
@@ -7078,7 +7114,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J6") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -7087,7 +7123,7 @@
   (symbol (lib_id "power:GND") (at 93.98 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd1fe4be-bfbc-4aef-abbf-f2a2c39a3416)
-    (property "Reference" "#PWR021" (at 93.98 261.62 0)
+    (property "Reference" "#PWR018" (at 93.98 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 94.107 259.6642 0)
@@ -7103,7 +7139,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "DotBot"
@@ -7147,7 +7183,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 72.39 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be3aba45-14a3-460d-88b5-add328860e53)
-    (property "Reference" "J5" (at 72.39 25.4 0)
+    (property "Reference" "J7" (at 72.39 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Left Header" (at 68.58 41.91 90)
@@ -7156,7 +7192,16 @@
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Left" (at 72.39 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 72.39 41.91 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" (at 72.39 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/en/products/detail/sullins-connector-solutions/PPTC101LFBN-RC/810149" (at 72.39 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "S7008-ND" (at 72.39 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$0,333" (at 72.39 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3837e644-396a-4ced-9b25-996af15ba53e))
@@ -7172,7 +7217,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J5") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -7284,7 +7329,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 100.33 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3d1ea09-cae0-47e7-a34d-ac36c4519b82)
-    (property "Reference" "J7" (at 100.33 44.45 0)
+    (property "Reference" "J8" (at 100.33 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Front Left Pins" (at 96.52 53.34 90)
@@ -7303,7 +7348,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J7") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -7352,7 +7397,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 121.92 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8d5077d-fe6d-4cad-b74d-b09b62ffc8e4)
-    (property "Reference" "J8" (at 121.92 44.45 0)
+    (property "Reference" "J10" (at 121.92 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Front Right Pins" (at 118.11 53.34 90)
@@ -7371,7 +7416,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J8") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -7445,7 +7490,7 @@
   (symbol (lib_id "power:+3.3V") (at 109.22 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbbf234e-e2d2-4cd7-87fc-e63be95baaaa)
-    (property "Reference" "#PWR025" (at 109.22 50.8 0)
+    (property "Reference" "#PWR021" (at 109.22 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 109.22 43.18 0)
@@ -7461,7 +7506,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "DotBot"
@@ -7665,7 +7710,16 @@
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Left" (at 41.91 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 41.91 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" (at 41.91 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/en/products/detail/sullins-connector-solutions/PPTC101LFBN-RC/810149" (at 41.91 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "S7008-ND" (at 41.91 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$0,333" (at 41.91 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid be3ae7f1-2425-477b-abcd-165c0202b679))
@@ -7779,7 +7833,16 @@
     (property "Footprint" "Battery:BatteryHolder_MPD_BC2AAPC_2xAA" (at 378.46 139.446 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 378.46 139.446 90)
+    (property "Datasheet" "https://www.memoryprotectiondevices.com/datasheets/BK-6100-PC4-datasheet.pdf" (at 378.46 139.446 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/en/products/detail/mpd-memory-protection-devices/BK-6100-PC4/1640075" (at 378.46 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "BK-6100-PC4-ND" (at 378.46 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$2,637" (at 378.46 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d8a140db-c56e-489a-b1e7-b507da38b899))
@@ -7866,7 +7929,7 @@
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 66.04 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebbee6f6-ec96-40c8-90f5-fd6dda23c6dc)
-    (property "Reference" "J4" (at 54.61 102.87 0)
+    (property "Reference" "J6" (at 54.61 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SWD" (at 54.61 105.41 0)
@@ -7875,7 +7938,16 @@
     (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" (at 66.04 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 57.15 135.89 90)
+    (property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf" (at 57.15 135.89 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.digikey.fr/en/products/detail/samtec-inc/FTSH-105-01-F-DV-K/2649974" (at 66.04 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr Part Number" "SAM8796-ND" (at 66.04 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Price" "$2,167" (at 66.04 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 53abe2dd-bf1a-4cd4-a775-6b171cb167c8))
@@ -7891,7 +7963,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -7960,7 +8032,7 @@
   (symbol (lib_id "OLIMEX_Power:GND") (at 115.57 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f94ba26c-5a03-42c4-a010-fa4943b73bbb)
-    (property "Reference" "#PWR024" (at 115.57 43.18 0)
+    (property "Reference" "#PWR025" (at 115.57 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 41.91 0)
@@ -7976,7 +8048,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -7985,7 +8057,7 @@
   (symbol (lib_id "power:+3.3V") (at 93.98 245.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9e43026-8f45-43ba-aae3-18f8bd7e8df5)
-    (property "Reference" "#PWR020" (at 93.98 248.92 0)
+    (property "Reference" "#PWR017" (at 93.98 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 93.98 240.03 0)
@@ -8001,7 +8073,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "DotBot"
@@ -8126,7 +8198,7 @@
   (symbol (lib_id "power:GND") (at 71.12 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff34d56b-ee63-4843-a8a5-2db141ba59c1)
-    (property "Reference" "#PWR06" (at 71.12 162.56 0)
+    (property "Reference" "#PWR09" (at 71.12 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.247 160.6042 0)
@@ -8142,7 +8214,7 @@
     (instances
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "DotBot"
