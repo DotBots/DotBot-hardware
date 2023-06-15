@@ -3991,6 +3991,36 @@
     )
   )
 
+  (symbol (lib_id "power:+BATT") (at 66.04 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 01f659c1-1e7b-4b0c-a7f2-20fd74a9dae5)
+    (property "Reference" "#PWR061" (at 66.04 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 66.04 83.82 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 66.04 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 66.04 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e751d0c9-1471-48e1-a9b0-a966fee9b5bd))
+    (instances
+      (project "DotBot"
+        (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+      (project "DotBot"
+        (path "/67763d19-f622-4e1e-81e5-5b24da7c3f99"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 215.9 238.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03051b5a-dfce-4679-8864-873fddf0b7c9)
@@ -6856,36 +6886,6 @@
       (project "DotBot"
         (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
           (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 66.04 87.63 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ab052914-399c-49c2-be84-d3e82110f3d1)
-    (property "Reference" "#PWR08" (at 66.04 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 66.04 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 66.04 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 66.04 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d66c0ae6-c65c-4b8a-a9f6-7cd2a8a9b14c))
-    (instances
-      (project "DotBot"
-        (path "/491c1a28-9007-4b9b-b900-130d9dcda097"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "DotBot"
-        (path "/67763d19-f622-4e1e-81e5-5b24da7c3f99"
-          (reference "#PWR026") (unit 1)
         )
       )
     )
