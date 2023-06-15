@@ -409,7 +409,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -488,6 +488,7 @@
     "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
