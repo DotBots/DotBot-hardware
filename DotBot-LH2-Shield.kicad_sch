@@ -747,6 +747,52 @@
         )
       )
     )
+    (symbol "OLIMEX_Power:+6V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+6V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (symbol "+6V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "+6V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+6V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "OLIMEX_Power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1457,6 +1503,31 @@
     )
   )
 
+  (symbol (lib_id "OLIMEX_Power:+6V") (at 186.69 48.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 14003979-c29f-442a-9e9b-00be0d4badf7)
+    (property "Reference" "#PWR017" (at 186.69 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+6V" (at 186.69 43.18 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 186.69 48.26 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 186.69 48.26 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid a611e2c8-c765-4465-9854-3fb93f82bbe6))
+    (instances
+      (project "DotBot-LH2-Shield"
+        (path "/92e40173-df06-4aa6-9ab0-efc512328572"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "OLIMEX_Power:+3.3V") (at 110.49 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 155056e4-cf10-46df-90db-80f3b09a480c)
@@ -1756,31 +1827,6 @@
     )
   )
 
-  (symbol (lib_id "OLIMEX_Power:GND") (at 58.42 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3de9f627-90ba-4546-865d-b9b0c3b95f7e)
-    (property "Reference" "#PWR01" (at 58.42 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 60.96 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 58.42 106.68 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Datasheet" "" (at 58.42 106.68 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid 07917eb6-98ef-4e93-80b5-5aa78c92da02))
-    (instances
-      (project "DotBot-LH2-Shield"
-        (path "/92e40173-df06-4aa6-9ab0-efc512328572"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "OLIMEX_Power:+3.3V") (at 52.07 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40a3e28d-2322-4f65-ad29-8ffd97f17f8d)
@@ -1991,31 +2037,6 @@
       (project "DotBot-LH2-Shield"
         (path "/92e40173-df06-4aa6-9ab0-efc512328572"
           (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 186.69 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5fb91265-6b46-426e-8d71-31ba9e684dac)
-    (property "Reference" "#PWR017" (at 186.69 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 186.69 43.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 186.69 48.26 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Datasheet" "" (at 186.69 48.26 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid f618a848-7ab6-48b4-9cc9-21fdd402fc97))
-    (instances
-      (project "DotBot-LH2-Shield"
-        (path "/92e40173-df06-4aa6-9ab0-efc512328572"
-          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2354,6 +2375,31 @@
       (project "DotBot-LH2-Shield"
         (path "/92e40173-df06-4aa6-9ab0-efc512328572"
           (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+6V") (at 58.42 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9dc2499c-0f13-441f-81a3-580d931c1d87)
+    (property "Reference" "#PWR01" (at 58.42 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+6V" (at 58.42 101.6 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 58.42 106.68 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 58.42 106.68 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 11b11c63-88e5-46c6-b85c-c084a98d33f5))
+    (instances
+      (project "DotBot-LH2-Shield"
+        (path "/92e40173-df06-4aa6-9ab0-efc512328572"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
