@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -457,8 +457,8 @@
       "idf": "",
       "netlist": "DotBot_v2_0.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../../home/aabadie/Documents/AIO/OpenSCAD/DotBot.step",
+      "vrml": "../../../../home/aabadie/Documents/AIO/FreeCAD/DotBot.wrl"
     },
     "page_layout_descr_file": ""
   },
