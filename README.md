@@ -1,4 +1,4 @@
-# DotBot - PCB v1.6
+# DotBot - PCB v2
 
 <p align="center">
   <img src="static/main_diagram.png" width="70%" height="70%"alt="DotBot Diagram"/>
@@ -14,15 +14,15 @@ This repository contains the Kicad project for the main PCB of the Dotbot projec
 </p>
 
 This PCB contains:
-- nRF52833 microcontroller.
+- nRF5340 microcontroller.
 - Dual DC motor driver.
-- Valve Ligthhouse v2 receiver circuit.
+- Extensible features using an external shield
 - Magnetic encoders for the motors.
 
 ## Schematic
 
 <p align="center">
-  <img src="static/schematics.png" alt="Schematic"/>
+  <img src="output/schematic/DotBot.svg" alt="Schematic"/>
 </p>
 
-The full resolution schematics can be found at ```output/DotBot-Schematics.pdf```
+The full resolution schematics can be found at [output/schematic/DotBot.pdf](output/schematic/DotBot.pdf)
