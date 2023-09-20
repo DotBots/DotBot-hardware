@@ -457,8 +457,8 @@
       "idf": "",
       "netlist": "../../../Program Files/KiCad/7.0/",
       "specctra_dsn": "",
-      "step": "../../../../home/aabadie/Documents/AIO/OpenSCAD/DotBot-LH2-Shield.step",
-      "vrml": "../../../../home/aabadie/Documents/AIO/FreeCAD/DotBot-LH2-Shield.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
