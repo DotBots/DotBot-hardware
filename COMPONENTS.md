@@ -5,15 +5,15 @@
 - 1x main PCB that you have to manufacture only. Some manufacturers offers
   complete manufacturing that includes PCB and assembling the electronic
   components. So you end-up with this:
-  <p align="center">
+  <div align="center">
     <img src="dist/images/DotBot-pcb-layout.png" width="40%" height="40%" alt="3D PCB"/>
-  </p>
+  </div>
 
 - (optional) 1x LH2 shield PCB
 
-  <p align="center">
+  <div align="center">
     <img src="dist/images/DotBot-lh2-pcb-layout.png" width="40%" height="40%" alt="3D LH2 PCB"/>
-  </p>
+  </div>
 
 ## 3D printed parts
 
