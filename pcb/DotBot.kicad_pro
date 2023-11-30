@@ -458,7 +458,7 @@
       "netlist": "DotBot_v2_0.net",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "DotBot.wrl"
     },
     "page_layout_descr_file": ""
   },
