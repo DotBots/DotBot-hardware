@@ -17,11 +17,14 @@
 
 ## 3D printed parts
 
-- 2x motor holders, see [ASSEMBLING](ASSEMBLING.md)
+- 2x motor holders, [step file](parts/DotBot-motor-holder.stl)
 
-- 1x ball caster spacer, see [ASSEMBLING](ASSEMBLING.md)
+- 1x ball caster spacer, [step file](parts/DotBot-ball-caster-spacer.stl)
 
-- 1x ball caster holder, see [ASSEMBLING](ASSEMBLING.md)
+- 1x ball caster holder, [step file](parts/DotBot-ball-caster-holder.stl)
+
+You can also import the [3D manufacturing file](parts/DotBot-parts.3mf)
+with your 3D printer (PLA) for printing them.
 
 ## Pololu parts
 
