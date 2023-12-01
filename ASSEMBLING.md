@@ -10,8 +10,8 @@ eventually followed the [compopent preparation](PREPARING.md), if needed.
 You will just require access to an Allen screwdriver (1.5mm).
 
 <div align="center">
-  <img src="dist/images/DotBot-pcb-prepared.jpg" height="150px" alt="PCB prepared"/>
-  <img src="dist/images/DotBot-components.jpg" height="150px" alt="DotBot components"/>
+  <img src="dist/images/DotBot-pcb-prepared.jpg" height="250px" alt="PCB prepared"/>
+  <img src="dist/images/DotBot-components.jpg" height="250px" alt="DotBot components"/>
 </div>
 
 ## Let's go!
