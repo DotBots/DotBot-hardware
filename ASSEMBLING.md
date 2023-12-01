@@ -113,7 +113,8 @@ There are 3 remaining steps:
       <img src="dist/images/DotBot-mounted-without-wheels.jpg" width="200px" alt="Ball caster assembling"/>
     </div>
 
-3. And last but not least, put the wheels on the motor shafts and you are done!
+3. And last but not least, plug the JST connectors and put the wheels on the
+  motor shafts and you are done!
 
 <div align="center">
   <img src="dist/images/DotBot-mounted.jpg" width="500px" alt="Ball caster assembling"/>
