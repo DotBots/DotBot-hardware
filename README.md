@@ -57,5 +57,4 @@ Once you have collected all [components](COMPONENTS.md) and you have
   <img src="dist/images/DotBot-components.jpg" width="500px" alt="DotBot components"/>
 </div>
 
-The [assembling manual](ASSEMBLING.md) document will guide you through the setup
-of your DotBot.
+The [assembling manual](ASSEMBLING.md) will guide you through the setup of your DotBot.
