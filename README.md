@@ -48,7 +48,14 @@ The full resolution schematics can be found at
 The Freecad project, Step files and 3D Manufacturing files are located in the
 [parts directory](./parts/).
 
+Once you have collected all [components](COMPONENTS.md) and you have
+[prepared them](PREPARING.md).
+
 ## Assembling manual
+
+<div align="center">
+  <img src="dist/images/DotBot-components.jpg" width="500px" alt="DotBot components"/>
+</div>
 
 The [assembling manual](ASSEMBLING.md) document will guide you through the setup
 of your DotBot.
