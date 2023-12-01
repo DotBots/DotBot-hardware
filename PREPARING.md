@@ -6,8 +6,8 @@ Some components have to be prepared before assembling the DotBot.
 
 Make sure you have all required [components](./COMPONENTS.md).
 
-You will all need access to a soldering station and to an Allen screw
-driver (1.5mm). A pair of precision pliers are also useful to insert the
+You will all need access to a soldering station and to an Allen screwdriver
+(1.5mm). A pair of precision pliers are also useful to insert the
 threaded insert in the 3D printed parts, see below.
 
 ## Prepare the PCBs

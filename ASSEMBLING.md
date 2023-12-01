@@ -7,7 +7,7 @@ This document will guide you through the DotBot assembling workflow.
 Make sure you have all required [components](./COMPONENTS.md) and that you
 eventually followed the [compopent preparation](PREPARING.md), if needed.
 
-You will just require access to an Allen screen driver (1.5mm).
+You will just require access to an Allen screwdriver (1.5mm).
 
 <div align="center">
   <img src="dist/images/DotBot-components.jpg" width="500px" alt="DotBot components"/>
