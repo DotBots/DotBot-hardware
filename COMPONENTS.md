@@ -20,6 +20,10 @@
 For the first 3, you can also use the [3D manufacturing file](parts/DotBot-parts.3mf)
 with your 3D printer (PLA) to print them.
 
+<p align="center">
+  <img src="dist/images/DotBot-3d-printed-parts.jpg" width="200px" alt="3D printed parts"/>
+</p>
+
 - 2x PLA motor holders, [step file](parts/DotBot-motor-holder.stl)
 
 - 1x PLA ball caster spacer, [step file](parts/DotBot-ball-caster-spacer.stl)
