@@ -17,14 +17,18 @@
 
 ## 3D printed parts
 
-- 2x motor holders, [step file](parts/DotBot-motor-holder.stl)
+For the first 3, you can also use the [3D manufacturing file](parts/DotBot-parts.3mf)
+with your 3D printer (PLA) to print them.
 
-- 1x ball caster spacer, [step file](parts/DotBot-ball-caster-spacer.stl)
+- 2x PLA motor holders, [step file](parts/DotBot-motor-holder.stl)
 
-- 1x ball caster holder, [step file](parts/DotBot-ball-caster-holder.stl)
+- 1x PLA ball caster spacer, [step file](parts/DotBot-ball-caster-spacer.stl)
 
-You can also import the [3D manufacturing file](parts/DotBot-parts.3mf)
-with your 3D printer (PLA) for printing them.
+- 1x PLA ball caster holder, [step file](parts/DotBot-ball-caster-holder.stl)
+
+- (optional) 2x PLA wheel rims, [step file](parts/DotBot-wheel-rim.stl), [3mf](parts/DotBot-wheel-rims.3mf)
+
+- (optional) 2x TPE/TPU wheel tires, [step file](parts/DotBot-wheel-tire.stl), [3mf](parts/DotBot-wheel-rims.3mf)
 
 ## Pololu parts
 
