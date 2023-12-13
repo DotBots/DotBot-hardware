@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "DotBot Shield Template")
+    (date "2023-12-13")
+    (rev "0.1.0")
+    (company "Inria")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
