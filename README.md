@@ -43,6 +43,21 @@ This PCB is based on:
 The full resolution schematics can be found at
 [dist/pcb/schematic/DotBot.pdf](dist/pcb/schematic/DotBot.pdf)
 
+### Shields
+
+This repository already contains the kicad project for one shield in
+[pcb/lh2](./pcb/shields/lh2) which embeds:
+- an RGB LED
+- an [ST ISM330](https://www.st.com/en/mems-and-sensors/ism330dlc.html) IMU
+  sensor
+- an [ST LIS3MDL](https://www.st.com/en/mems-and-sensors/lis3mdl.html) magnetometer
+  sensor
+- a TS4231 connected to a photodiode: this design is used for indoor localization
+  using a Lighthouse VR base station.
+
+To help you start designing new compatible shields, check the
+[shield template kicad project](./pcb/shields/template).
+
 ## Hardware components
 
 The Freecad project, Step files and 3D Manufacturing files are located in the
