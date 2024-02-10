@@ -1106,7 +1106,7 @@
         (name "BOUT1" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin open_collector line (at -15.24 9.525 0) (length 5.08)
+      (pin open_collector line (at -15.24 9.398 0) (length 5.08)
         (name "nFAULT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
